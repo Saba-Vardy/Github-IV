@@ -211,6 +211,7 @@
 .block-surati {
     margin-top: 88px;
 }
+/* რესპონსივი */
 @media (max-width:1057px) {
     .sec1 {
         width: 100%;
