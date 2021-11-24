@@ -23,13 +23,14 @@
 }
 .nav-ul{
     display: flex;
-    
     max-width: 581px;
     width: 100%;
 }
 .navli {
     margin-left: 50px;
     font-weight: bold; 
+}
+.nav-word {
     color: #3D37F1;
 }
 .burger {
@@ -98,7 +99,8 @@
     margin-right: auto;
 }
 .shua {
-    width: 720px;
+    max-width: 720px;
+    width:100%;
     text-align: center;
     font-family: 'Lato', sans-serif;
 }
@@ -173,10 +175,11 @@
     width: 100%;
 }
 .block-text {
-    width:770px;
-    margin: 0 auto 60px auto;
+    max-width:770px;
+    width:100%;
     text-align: center;
     color: white;
+    
 }
 .block-h2 {
     margin-top: 61px;
@@ -184,15 +187,17 @@
     font-family: 'Lato', sans-serif;
 }
 .blcok-p {
-    margin-top: 14px;
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    width: 328px;
-    text-align: center;
-    margin-left: 21px; 
+    max-width: 328px;
+    width: 100%;
+    margin: auto;
+    margin-top: 14px;
+    
 }
 .read {
-    width: 131px;
+    max-width: 131px;
+    width: 100%;
     height: 45px;
     border: 4px solid white ;
     border-radius: 23px;
@@ -200,7 +205,8 @@
     justify-content: center;
     align-items: center;
     color: white;
-    margin: 14px 118px;
+    margin: auto;
+    margin-top: 15px;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
 }
@@ -208,9 +214,7 @@
     background: white;
     color: #4B647E;
 }
-.block-surati {
-    margin-top: 88px;
-}
+
 /* რესპონსივი */
 @media (max-width:1057px) {
     .sec1 {
@@ -248,22 +252,24 @@
     }
     .burger{
         display: block;
-        float: right;
         margin-right: 20px;
     } 
 }
 @media (max-width: 480px) {
     .left-satauri {
-        
         font-size: 50px;
         line-height: 40px;  
     }
+    .logo {
+        margin-left: 0px;
+    }
+    
     .wave {
         width: 100px;
         height: 50px;
         font-size: 15px;
         margin-top: 50px;
     }
-    
+   
     
 }
